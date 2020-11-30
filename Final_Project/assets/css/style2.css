@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #100F0F;
+    font-family: 'Sen', sans-serif;
+
+}
+header {
+    font-family: 'Sen', sans-serif;
+    background-color: black;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+nav {
+    float: right;
+}
+
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
+    line-height: 80px;
+}
+nav a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+    text-decoration: none;
+    cursor: pointer; 
+    
+}
+nav a:visited {
+    color: white;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+    text-decoration: none;
+    cursor: pointer; 
+}
+nav a:hover {
+    font-family: 'Sen', sans-serif;
+    color: rgb(112, 112, 214);
+    transition: 0.5s;
+}
+
+nav a:visited:hover {
+    font-family: 'Sen', sans-serif;
+    color: rgb(112, 112, 214);
+    transition: 0.5s;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-left: 45%;
+    animation: fadein 2s;
+}
+
+
+.text {
+    font-size: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin-left: 20%;
+    animation: fadein 2s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
